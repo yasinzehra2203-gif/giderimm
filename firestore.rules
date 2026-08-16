@@ -1,0 +1,1 @@
+rules_version='2';service cloud.firestore{match /databases/{database}/documents{match /transactions/{id}{allow read,create,update,delete:if request.auth!=null&&((resource.data.uid==request.auth.uid)||(request.method=='create'&&request.resource.data.uid==request.auth.uid));}}}

@@ -1,0 +1,1 @@
+export const firebaseConfig={apiKey:"BURAYA_API_KEY",authDomain:"BURAYA.firebaseapp.com",projectId:"BURAYA_PROJECT_ID",storageBucket:"BURAYA.firebasestorage.app",messagingSenderId:"BURAYA_MESSAGING_SENDER_ID",appId:"BURAYA_APP_ID"};
